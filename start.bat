@@ -1,0 +1,3 @@
+@echo off
+echo Iniciando Weather Dashboard...
+npm run dev
