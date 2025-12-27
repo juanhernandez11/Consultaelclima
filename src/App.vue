@@ -38,7 +38,7 @@ import Favorites from './components/Favorites.vue'
 import TemperatureChart from './components/TemperatureChart.vue'
 import HourlyForecast from './components/HourlyForecast.vue'
 
-const API_KEY = 'REMOVED_API_KEY'
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
 const weather = ref(null)
 const forecast = ref([])
 const hourlyForecast = ref([])
