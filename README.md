@@ -28,12 +28,6 @@ npm run dev
 
 O simplemente ejecuta `start.bat` en Windows.
 
-## 🔑 API Key
-
-La API key incluida es funcional, pero si quieres usar tu propia key:
-1. Regístrate gratis en: https://openweathermap.org/api
-2. Reemplaza la API_KEY en `src/App.vue` (línea 33)
-
 ## 🎯 Uso
 
 1. Busca cualquier ciudad en el mundo
